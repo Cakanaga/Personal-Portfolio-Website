@@ -101,28 +101,6 @@ a{
     color: #ff4e00;
 }
 
-/* #header .nav-list ul a::after {
-	content: attr(data-after);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.021);
-	font-size: 13rem;
-	letter-spacing: 50px;
-	z-index: -1;
-	transition: 0.3s ease letter-spacing;
-}
-
-#header .nav-list ul li:hover a::after {
-	transform: translate(-50%, -50%) scale(1);
-	letter-spacing: initial;
-} */
-
-/* #header .nav-list ul li:hover a {
-	color: orange;
-} */
-
 #header .hamburger {
 	height: 60px;
 	width: 60px;
@@ -259,18 +237,6 @@ a{
 }
 /* End of Hero Section */
 
-
-/* Projects section */
-/* #projects .projects-header{
-    font-size: 4rem;
-    font-weight: 300;
-    color: black;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .5rem;
-    text-align: center;
-} */
-
 #projects .projects-header h1{
     margin-bottom: 50px;
 }
@@ -321,6 +287,7 @@ a{
     font-size: 1.8rem;
     font-weight: 300;
     margin-top: 8px;
+    color:#57595d;
 }
 #projects .project-info p{
 	font-size: 1.4rem;
@@ -328,6 +295,16 @@ a{
 	font-weight: 300;
 	letter-spacing: 0.05rem;
     margin-top: 5px;
+}
+
+#projects .project-info a{
+    font-size: 2rem;
+    color:#252324;
+    margin-top: 7px;
+}
+
+#projects .project-info a:hover{
+    color: whitesmoke;
 }
 
 #projects .project-img {
@@ -357,6 +334,7 @@ a{
     transform: scale(1.1);
 }
 /* End of Projects section */
+
 
 /* About section */
 #about .sub-heading{
@@ -393,8 +371,6 @@ a{
 	line-height: 2.5rem;
 	letter-spacing: 0.05rem;
 }
-
-
 
 #about .col-right .cta{
     display: inline-block;
